@@ -57,12 +57,13 @@ int main() {
     Carte carte1("Flacara de fier", "Rebecca Yarros", 863);
     Carte carte2("Jocurile Foamei", "Suzanne Collins", 309);
     Carte carte3("Rezerva", "Printul Harry", 455);
+    Carte carte4("Master", "Librimir Voicu", 355);
 
     Jurnal jurnal;
     jurnal.adaugaCarte(carte1);
     jurnal.adaugaCarte(carte2);
     jurnal.adaugaCarte(carte3);
-
+    jurnal.adaugaCarte(carte4);
     jurnal.afiseazaJurnal();
 
     return 0;                                       
